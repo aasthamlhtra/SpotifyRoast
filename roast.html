@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Spotify Roast</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card roast-card">
+            <div class="header">
+                <h1>🎧 {{ user_name }}, here's your Spotify Roast</h1>
+            </div>
+            
+            <div class="roast-content">
+                <div class="roast-text">
+                    {{ roast }}
+                </div>
+            </div>
+            
+            <div class="actions">
+                <a href="/" class="btn btn-primary">
+                    🔄 Roast Someone Else
+                </a>
+            </div>
+            
+            <div class="footer">
+                <p>Made with Spotify data & a bit of judgment 😌</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
